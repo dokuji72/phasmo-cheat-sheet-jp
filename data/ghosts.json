@@ -1,8 +1,8 @@
 {
     "ghosts": [
         {
-            "ghost": "Spirit",
-            "name": "Spirit",
+            "ghost": "スピリット",
+            "name": "スピリット",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -13,18 +13,18 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Spirit Box",
-                "Writing"
+                "スピリットボックス",
+                "ゴーストライティング"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
-                "Incensing the ghost will prevent a hunt for 180s instead of the normal 90s"
+                "<特徴>",
+                "スマッジングをすると次のハントまでは通常の90秒ではなく180秒になります"
             ]
         },
         {
-            "ghost": "Wraith",
-            "name": "Wraith",
+            "ghost": "レイス",
+            "name": "レイス",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -35,21 +35,21 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Spirit Box",
+                "スピリットボックス",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Ghost will never step in salt of any tier",
                 "Will not be slowed down by tier 3 salt during a hunt",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Can teleport to random players, leaving EMF 2 or EMF 5"
             ]
         },
         {
-            "ghost": "Phantom",
-            "name": "Phantom",
+            "ghost": "ファントム",
+            "name": "ファントム",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -59,24 +59,24 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Spirit Box",
-                "Ultraviolet",
+                "スピリットボックス",
+                "紫外線",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Does not appear in ghost photo",
                 "During an event or during DOTs state, taking a photo will cause the ghost to disappear",
                 "Less visible during hunts (See 'Guides' tab)",
                 "Player loses 0.5% sanity per second while in heartbeat range and the ghost is visible during events/hunt even without line-of-sight",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Can roam to a random player, leaving EMF 2"
             ]
         },
         {
-            "ghost": "Poltergeist",
-            "name": "Poltergeist",
+            "ghost": "ポルターガイスト",
+            "name": "ポルターガイスト",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -86,23 +86,23 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Spirit Box",
-                "Ultraviolet",
-                "Writing"
+                "スピリットボックス",
+                "紫外線",
+                "ゴーストライティング"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Can throw multiple objects at once, decreasing player sanity 2% per item thrown",
                 "Will throw an item every 0.5s during a hunt",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Higher chance to throw & interact with objects",
                 "Can throw objects faster and further"
             ]
         },
         {
-            "ghost": "Banshee",
-            "name": "Banshee",
+            "ghost": "バンシー",
+            "name": "バンシー",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -112,27 +112,27 @@
             "hunt_sanity_low": "12%",
             "hunt_sanity_high": "87%",
             "evidence": [
-                "Ultraviolet",
-                "Ghost Orbs",
+                "紫外線",
+                "ゴーストオーブ",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Banshee scream through paramic  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.mp3')\">🔊</span>",
                 "Target loses 15% sanity if they touch the ghost during a singing ghost event (standard drain is 10%)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Will only go after its target during a hunt (unless target is outside)",
                 "Will roam toward its target, without leaving EMF 2",
                 "Will attempt to roam toward their target while in DOTs state",
                 "Prefers singing ghost events",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Hunts when target's sanity is 50% or lower (even if target is outside), meaning it can hunt as early as 87% average sanity"
             ]
         },
         {
-            "ghost": "Jinn",
-            "name": "Jinn",
+            "ghost": "ジン",
+            "name": "ジン",
             "min_speed": 1.7,
             "max_speed": 2.5,
             "alt_speed": null,
@@ -143,22 +143,22 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Ultraviolet",
-                "Freezing"
+                "紫外線",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Ability to drop nearby players' sanity by 25%, with EMF 2 or EMF 5 at the breaker (when breaker is on)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Can not turn off fuse box directly",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "2.5m/s when fuse box is on, has LOS, and is further than 3m from the seen player, 1.7m/s otherwise"
             ]
         },
         {
-            "ghost": "Mare",
-            "name": "Mare",
+            "ghost": "メアー",
+            "name": "メアー",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -168,25 +168,25 @@
             "hunt_sanity_low": "40%",
             "hunt_sanity_high": "60%",
             "evidence": [
-                "Spirit Box",
-                "Ghost Orbs",
-                "Writing"
+                "スピリットボックス",
+                "ゴーストオーブ",
+                "ゴーストライティング"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Ability to immediately turn off a light that a player has turned on (can only test for ability once every 10s)",
                 "Cannot turn on lights (keyboard and TV excluded)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "More likely to turn off and bust lights",
                 "More likely to wander to a room where lights are off",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "60% when lights are off in the ghost's current room, 40% when on"
             ]
         },
         {
-            "ghost": "Revenant",
-            "name": "Revenant",
+            "ghost": "レヴナント",
+            "name": "レヴナント",
             "min_speed": 1.0,
             "max_speed": 3.0,
             "alt_speed": null,
@@ -196,19 +196,19 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Ghost Orbs",
-                "Writing",
-                "Freezing"
+                "ゴーストオーブ",
+                "ゴーストライティング",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "3.0m/s immediately once the player has been sensed (equipment, voice, or line of sight) and until ghost has reached the players last known location where it will gradually slow down to 1m/s"
             ]
         },
         {
-            "ghost": "Shade",
-            "name": "Shade",
+            "ghost": "シェード",
+            "name": "シェード",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -219,23 +219,23 @@
             "hunt_sanity_high": "35%",
             "evidence": [
                 "EMF 5",
-                "Writing",
-                "Freezing"
+                "ゴーストライティング",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Does not do interactions that result in EMF 2, 3, or 5 with someone in the same room (except writing and blowing out firelights)",
                 "Will not hunt or do events with someone in the same room",
-                "<Behaviors>",
+                "<アビリティ>",
                 "More ghost events at lower average sanity (cannot do ghost events at 100% sanity)",
                 "More likely to appear as shadow ghost model during events",
                 "Has a increased chance to appear as a shadow if summoned from music box, monkey paw, or summoning circle"
             ]
         },
         {
-            "ghost": "Demon",
-            "name": "Demon",
+            "ghost": "デーモン",
+            "name": "デーモン",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -245,24 +245,24 @@
             "hunt_sanity_low": "70%",
             "hunt_sanity_high": "100%",
             "evidence": [
-                "Ultraviolet",
-                "Writing",
-                "Freezing"
+                "紫外線",
+                "ゴーストライティング",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Incensing the ghost will prevent a hunt for 60s instead of the normal 90s",
                 "20s minimum hunt cool-down (normal is 25s)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Crucifix range increased by 50% per tier (4.5m, 6m, 7.5m respectively)",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Ability to hunt at any sanity, hunts normally at 70%"
             ]
         },
         {
-            "ghost": "Yurei",
-            "name": "Yurei",
+            "ghost": "幽霊",
+            "name": "幽霊",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -272,22 +272,22 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Ghost Orbs",
-                "Freezing",
+                "ゴーストオーブ",
+                "氷点下",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Can shut a door and drop sanity of nearby players by 15% <b><i>if</i></b> a door is in the room",
                 "Only ghost that can close or interact with an exit door outside of a hunt or ghost event",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Incense traps ghost in its room and prevents wandering for 60 seconds"
             ]
         },
         {
-            "ghost": "Oni",
-            "name": "Oni",
+            "ghost": "鬼",
+            "name": "鬼",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -298,23 +298,23 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Freezing",
+                "氷点下",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Drains 20% on ghost events, instead of 10%",
                 "Will <b><i>not</i></b> do 'ghost mist' event",
                 "More visible during hunts (See 'Guides' tab)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "More active around multiple people",
                 "More likely to appear as full ghost model"
             ]
         },
         {
-            "ghost": "Yokai",
-            "name": "Yokai",
+            "ghost": "妖怪",
+            "name": "妖怪",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -324,24 +324,24 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "80%",
             "evidence": [
-                "Spirit Box",
-                "Ghost Orbs",
+                "スピリットボックス",
+                "ゴーストオーブ",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Hearing/electronic detection distance is less than 2.5m during hunts",
-                "<Behaviors>",
+                "<アビリティ>",
                 "More active when talked to",
                 "Music box can be brought much closer to the ghost before it breaks",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Can hunt up to 80% sanity when talking near it, hunts normally at 50%"
             ]
         },
         {
-            "ghost": "Hantu",
-            "name": "Hantu",
+            "ghost": "ハントゥ",
+            "name": "ハントゥ",
             "min_speed": 1.44,
             "max_speed": 2.7,
             "alt_speed": null,
@@ -351,18 +351,18 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Ultraviolet",
-                "Ghost Orbs",
-                "Freezing"
+                "紫外線",
+                "ゴーストオーブ",
+                "氷点下"
             ],
-            "nightmare_evidence": "Freezing",
+            "nightmare_evidence": "氷点下",
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Ghost can have visible freezing breath in any room during hunts with the breaker off/broken",
                 "Cannot turn breaker on",
-                "<Behaviors>",
+                "<アビリティ>",
                 "High chance to turn breaker off",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "Faster in colder temperatures",
                 "<b>Does not speed up in line-of-sight</b>",
                 "<Evidence>",
@@ -370,8 +370,8 @@
             ]
         },
         {
-            "ghost": "Goryo",
-            "name": "Goryo",
+            "ghost": "御霊",
+            "name": "御霊",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -382,14 +382,14 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Ultraviolet",
+                "紫外線",
                 "DOTs"
             ],
             "nightmare_evidence": "DOTs",
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "DOTs only appear on video camera and will not show if a player is in the same room (DOTs state can start outside of room and enter a player's room)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Can not change favorite rooms",
                 "Does not leave room as often",
                 "<Evidence>",
@@ -397,8 +397,8 @@
             ]
         },
         {
-            "ghost": "Myling",
-            "name": "Myling",
+            "ghost": "マイリング",
+            "name": "マイリング",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -409,20 +409,20 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Ultraviolet",
-                "Writing"
+                "紫外線",
+                "ゴーストライティング"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Footsteps and vocals cannot be heard more than 12m away during hunts (normal is 20m)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Lots of paranormal sounds through paramic"
             ]
         },
         {
-            "ghost": "Onryo",
-            "name": "Onryo",
+            "ghost": "怨霊",
+            "name": "怨霊",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -432,24 +432,24 @@
             "hunt_sanity_low": "60%",
             "hunt_sanity_high": "100%",
             "evidence": [
-                "Spirit Box",
-                "Ghost Orbs",
-                "Freezing"
+                "スピリットボックス",
+                "ゴーストオーブ",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Will hunt at any sanity after extinguishing every 3rd flame if no other flames or crucifix will prevent it",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Flames act like crucifixes, will blow out a flame if it tries to hunt (within 4m)",
                 "More likely to extinguish a flame, the more players that are dead",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Can hunt at any sanity using its ability, hunts normally at 60%"
             ]
         },
         {
-            "ghost": "The Twins",
-            "name": "The Twins",
+            "ghost": "ツインズ",
+            "name": "ツインズ",
             "min_speed": 1.53,
             "max_speed": 1.87,
             "alt_speed": null,
@@ -460,22 +460,22 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Spirit Box",
-                "Freezing"
+                "スピリットボックス",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Often do interactions at the same time (at physical location and ranged location)",
-                "<Behaviors>",
+                "<アビリティ>",
                 "Only triggers motion sensors, steps in salt, and gives spirit box at its physical location",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "1.53m/s when hunting from physical location, 1.87m/s when hunting from ranged location"
             ]
         },
         {
-            "ghost": "Raiju",
-            "name": "Raiju",
+            "ghost": "雷獣",
+            "name": "雷獣",
             "min_speed": 1.7,
             "max_speed": 2.5,
             "alt_speed": null,
@@ -486,22 +486,22 @@
             "hunt_sanity_high": "65%",
             "evidence": [
                 "EMF 5",
-                "Ghost Orbs",
+                "ゴーストオーブ",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "During a hunt, flickers electronics at 15m range instead of 10m",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Can hunt at 65% sanity near active player equipment",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "2.5m/s near active player equipment, 1.7m/s otherwise"
             ]
         },
         {
-            "ghost": "Obake",
-            "name": "Obake",
+            "ghost": "化け狐",
+            "name": "化け狐",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -512,12 +512,12 @@
             "hunt_sanity_high": "50%",
             "evidence": [
                 "EMF 5",
-                "Ultraviolet",
-                "Ghost Orbs"
+                "紫外線",
+                "ゴーストオーブ"
             ],
-            "nightmare_evidence": "Ultraviolet",
+            "nightmare_evidence": "紫外線",
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Special 6 fingered fingerprints (See 'Guides' tab)",
                 "Has a 6.66% chance to change ghost models when flickering during hunts (guaranteed once per hunt, returns to original model)",
                 "Has a 25% chance to not leave ultraviolet evidence",
@@ -527,8 +527,8 @@
             ]
         },
         {
-            "ghost": "The Mimic",
-            "name": "The Mimic",
+            "ghost": "ミミック",
+            "name": "ミミック",
             "min_speed": 1.7,
             "max_speed": null,
             "alt_speed": null,
@@ -538,25 +538,25 @@
             "hunt_sanity_low": "35%",
             "hunt_sanity_high": "100%",
             "evidence": [
-                "Spirit Box",
-                "Ultraviolet",
-                "Freezing"
+                "スピリットボックス",
+                "紫外線",
+                "氷点下"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Always shows orbs as additional fake evidence (4th evidence) even in 0 evidence",
                 "Copies the behavior and traits of other ghosts",
                 "Changes ghost behavior every 30 seconds to 2 minutes",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Copies behavior of currently mimicked ghost",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "Copies speed of currently mimicked ghost"
             ]
         },
         {
-            "ghost": "Moroi",
-            "name": "Moroi",
+            "ghost": "モーロイ",
+            "name": "モーロイ",
             "min_speed": 1.5,
             "max_speed": 2.25,
             "alt_speed": 3.71,
@@ -566,16 +566,16 @@
             "hunt_sanity_low": "50%",
             "hunt_sanity_high": "50%",
             "evidence": [
-                "Spirit Box",
-                "Writing",
-                "Freezing"
+                "スピリットボックス",
+                "ゴーストライティング",
+                "氷点下"
             ],
-            "nightmare_evidence": "Spirit Box",
+            "nightmare_evidence": "スピリットボックス",
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Places curse on player when heard through paramic or spirit box, curse drops sanity 2x as fast",
                 "Incense blindness duration increased by 50% (7.5s instead of 5s)",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "Faster when average sanity is lower, can reach a speed of 3.71 m/s when in line of sight",
                 "Speed will decrease during a hunt if sanity medication is used",
                 "<Evidence>",
@@ -583,8 +583,8 @@
             ]
         },
         {
-            "ghost": "Deogen",
-            "name": "Deogen",
+            "ghost": "モーロイ",
+            "name": "モーロイ",
             "min_speed": 0.4,
             "max_speed": 3.0,
             "alt_speed": null,
@@ -594,24 +594,24 @@
             "hunt_sanity_low": "40%",
             "hunt_sanity_high": "40%",
             "evidence": [
-                "Spirit Box",
-                "Writing",
+                "スピリットボックス",
+                "ゴーストライティング",
                 "DOTs"
             ],
-            "nightmare_evidence": "Spirit Box",
+            "nightmare_evidence": "スピリットボックス",
             "behavior": [
-                "<Tells>",
+                "<特徴>",
                 "Heavy breathing through spirit box when within 1m of the ghost  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/deogen_breathing.mp3')\">🔊</span>",
                 "Cannot hide from a Deogen",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "3.0m/s when far away, drops to 0.4m/s when close to the player",
                 "<Evidence>",
                 "Guaranteed spirit box on Nightmare / Insanity mode"
             ]
         },
         {
-            "ghost": "Thaye",
-            "name": "Thaye",
+            "ghost": "セーイ",
+            "name": "セーイ",
             "min_speed": 1.0,
             "max_speed": 2.75,
             "alt_speed": null,
@@ -621,19 +621,19 @@
             "hunt_sanity_low": "35%",
             "hunt_sanity_high": "75%",
             "evidence": [
-                "Ghost Orbs",
-                "Writing",
+                "ゴーストオーブ",
+                "ゴーストライティング",
                 "DOTs"
             ],
             "nightmare_evidence": null,
             "behavior": [
-                "<Behaviors>",
+                "<アビリティ>",
                 "Ghost ages over time (every 1-2 minutes) while player is nearby",
                 "More active when younger",
                 "Age response on Ouija board increases as Thaye ages",
-                "<Hunt Sanity>",
+                "<ハント正気度>",
                 "Hunts at 75% at its youngest, 15% at its oldest",
-                "<Hunt Speed>",
+                "<ハント時移動速度>",
                 "2.75m/s at its youngest, 1.0m/s at its oldest",
                 "<b>Does not speed up in line-of-sight</b>"
             ]
@@ -642,11 +642,11 @@
     "version": "v0.9.5.0",
     "evidence": {
         "EMF 5":"EMF 5",
-        "Ultraviolet":"Ultraviolet",
-        "Writing":"Writing",
-        "Freezing":"Freezing",
+        "紫外線":"Ultraviolet",
+        "ゴーストライティング":"Writing",
+        "氷点下":"Freezing",
         "DOTs":"DOTs",
-        "Ghost Orbs":"Ghost Orbs",
-        "Spirit Box":"Spirit Box"
+        "ゴーストオーブ":"Ghost Orbs",
+        "スピリットボックス":"Spirit Box"
     }
 }
